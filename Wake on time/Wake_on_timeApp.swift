@@ -11,7 +11,7 @@ import SwiftUI
 struct Wake_on_timeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            startview()
         }
     }
 }

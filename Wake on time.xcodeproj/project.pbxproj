@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63012DE72C28CE8C00CCC2FC /* blackjack.otf in Resources */ = {isa = PBXBuildFile; fileRef = 63012DE62C28CE8C00CCC2FC /* blackjack.otf */; };
+		63012DEA2C28D29E00CCC2FC /* startview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63012DE92C28D29E00CCC2FC /* startview.swift */; };
 		63EE544F2C284F530040DC5A /* Wake_on_timeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EE544E2C284F530040DC5A /* Wake_on_timeApp.swift */; };
 		63EE54512C284F530040DC5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EE54502C284F530040DC5A /* ContentView.swift */; };
 		63EE54532C284F550040DC5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63EE54522C284F550040DC5A /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63012DE62C28CE8C00CCC2FC /* blackjack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = blackjack.otf; sourceTree = "<group>"; };
+		63012DE92C28D29E00CCC2FC /* startview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startview.swift; sourceTree = "<group>"; };
 		63EE544B2C284F530040DC5A /* Wake on time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wake on time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EE544E2C284F530040DC5A /* Wake_on_timeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wake_on_timeApp.swift; sourceTree = "<group>"; };
 		63EE54502C284F530040DC5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,9 +76,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63012DE52C28CE5D00CCC2FC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				63012DE62C28CE8C00CCC2FC /* blackjack.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		63012DE82C28D28900CCC2FC /* Start_View */ = {
+			isa = PBXGroup;
+			children = (
+				63012DE92C28D29E00CCC2FC /* startview.swift */,
+			);
+			path = Start_View;
+			sourceTree = "<group>";
+		};
 		63EE54422C284F530040DC5A = {
 			isa = PBXGroup;
 			children = (
+				63012DE52C28CE5D00CCC2FC /* Fonts */,
 				63EE544D2C284F530040DC5A /* Wake on time */,
 				63EE545F2C284F560040DC5A /* Wake on timeTests */,
 				63EE54692C284F560040DC5A /* Wake on timeUITests */,
@@ -95,6 +116,7 @@
 		63EE544D2C284F530040DC5A /* Wake on time */ = {
 			isa = PBXGroup;
 			children = (
+				63012DE82C28D28900CCC2FC /* Start_View */,
 				63EE544E2C284F530040DC5A /* Wake_on_timeApp.swift */,
 				63EE54502C284F530040DC5A /* ContentView.swift */,
 				63EE54522C284F550040DC5A /* Assets.xcassets */,
@@ -235,6 +257,7 @@
 			files = (
 				63EE54572C284F550040DC5A /* Preview Assets.xcassets in Resources */,
 				63EE54532C284F550040DC5A /* Assets.xcassets in Resources */,
+				63012DE72C28CE8C00CCC2FC /* blackjack.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63EE54512C284F530040DC5A /* ContentView.swift in Sources */,
+				63012DEA2C28D29E00CCC2FC /* startview.swift in Sources */,
 				63EE544F2C284F530040DC5A /* Wake_on_timeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +458,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -473,6 +498,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";

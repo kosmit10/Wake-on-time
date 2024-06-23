@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Property List.plist
+   Wake on time
+
+   Created by maciura on 23/06/2024.
+   Copyright (c) 2024 ___ORGANIZATIONNAME___. All rights reserved.
+-->
 <plist version="1.0">
-<dict>
-	<key>UIAppFonts</key>
-	<array>
-		<string>blackjack.otf</string>
-	</array>
-</dict>
+<dict/>
 </plist>
