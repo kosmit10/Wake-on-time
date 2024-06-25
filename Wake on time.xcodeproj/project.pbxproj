@@ -8,7 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		63012DE72C28CE8C00CCC2FC /* blackjack.otf in Resources */ = {isa = PBXBuildFile; fileRef = 63012DE62C28CE8C00CCC2FC /* blackjack.otf */; };
-		63012DEA2C28D29E00CCC2FC /* startview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63012DE92C28D29E00CCC2FC /* startview.swift */; };
+		632147D12C2A9D790083D559 /* startview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632147D02C2A9D790083D559 /* startview.swift */; };
+		632147D32C2A9F010083D559 /* loading2.json in Resources */ = {isa = PBXBuildFile; fileRef = 632147D22C2A9F010083D559 /* loading2.json */; };
+		6344FF092C2AB197005BEE3A /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 6344FF082C2AB197005BEE3A /* RiveRuntime */; };
+		6344FF0F2C2AB3C6005BEE3A /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 6344FF0E2C2AB3C6005BEE3A /* loading.json */; };
+		6354689A2C2AB6FF008AD62B /* black_sky_with_shooting_stars-2.riv in Resources */ = {isa = PBXBuildFile; fileRef = 635468992C2AB6FF008AD62B /* black_sky_with_shooting_stars-2.riv */; };
+		6354689C2C2ABB55008AD62B /* traveling_salesman.riv in Resources */ = {isa = PBXBuildFile; fileRef = 6354689B2C2ABB55008AD62B /* traveling_salesman.riv */; };
+		63A6925B2C2959ED00FF4A0D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 63A6925A2C2959ED00FF4A0D /* Lottie */; };
+		63A6925D2C295A7E00FF4A0D /* click.json in Resources */ = {isa = PBXBuildFile; fileRef = 63A6925C2C295A7E00FF4A0D /* click.json */; };
+		63A692612C29638300FF4A0D /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A692602C29638300FF4A0D /* LottieView.swift */; };
 		63EE544F2C284F530040DC5A /* Wake_on_timeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EE544E2C284F530040DC5A /* Wake_on_timeApp.swift */; };
 		63EE54512C284F530040DC5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EE54502C284F530040DC5A /* ContentView.swift */; };
 		63EE54532C284F550040DC5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63EE54522C284F550040DC5A /* Assets.xcassets */; };
@@ -37,7 +45,14 @@
 
 /* Begin PBXFileReference section */
 		63012DE62C28CE8C00CCC2FC /* blackjack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = blackjack.otf; sourceTree = "<group>"; };
-		63012DE92C28D29E00CCC2FC /* startview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startview.swift; sourceTree = "<group>"; };
+		632147D02C2A9D790083D559 /* startview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startview.swift; sourceTree = "<group>"; };
+		632147D22C2A9F010083D559 /* loading2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = loading2.json; sourceTree = "<group>"; };
+		6344FF0E2C2AB3C6005BEE3A /* loading.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		635468992C2AB6FF008AD62B /* black_sky_with_shooting_stars-2.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = "black_sky_with_shooting_stars-2.riv"; sourceTree = "<group>"; };
+		6354689B2C2ABB55008AD62B /* traveling_salesman.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = traveling_salesman.riv; sourceTree = "<group>"; };
+		63A692522C2954F400FF4A0D /* Wake-on-time-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Wake-on-time-Info.plist"; sourceTree = SOURCE_ROOT; };
+		63A6925C2C295A7E00FF4A0D /* click.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = click.json; sourceTree = "<group>"; };
+		63A692602C29638300FF4A0D /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		63EE544B2C284F530040DC5A /* Wake on time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wake on time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EE544E2C284F530040DC5A /* Wake_on_timeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wake_on_timeApp.swift; sourceTree = "<group>"; };
 		63EE54502C284F530040DC5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A6925B2C2959ED00FF4A0D /* Lottie in Frameworks */,
+				6344FF092C2AB197005BEE3A /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,19 +104,48 @@
 		63012DE82C28D28900CCC2FC /* Start_View */ = {
 			isa = PBXGroup;
 			children = (
-				63012DE92C28D29E00CCC2FC /* startview.swift */,
+				632147D02C2A9D790083D559 /* startview.swift */,
 			);
 			path = Start_View;
+			sourceTree = "<group>";
+		};
+		6344FF0A2C2AB1B7005BEE3A /* Rive */ = {
+			isa = PBXGroup;
+			children = (
+				635468992C2AB6FF008AD62B /* black_sky_with_shooting_stars-2.riv */,
+				6354689B2C2ABB55008AD62B /* traveling_salesman.riv */,
+			);
+			path = Rive;
+			sourceTree = "<group>";
+		};
+		63A692542C29595300FF4A0D /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				632147D22C2A9F010083D559 /* loading2.json */,
+				63A692602C29638300FF4A0D /* LottieView.swift */,
+				6344FF0E2C2AB3C6005BEE3A /* loading.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		63A692592C2959ED00FF4A0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		63EE54422C284F530040DC5A = {
 			isa = PBXGroup;
 			children = (
+				6344FF0A2C2AB1B7005BEE3A /* Rive */,
+				63A692542C29595300FF4A0D /* Lottie */,
 				63012DE52C28CE5D00CCC2FC /* Fonts */,
 				63EE544D2C284F530040DC5A /* Wake on time */,
 				63EE545F2C284F560040DC5A /* Wake on timeTests */,
 				63EE54692C284F560040DC5A /* Wake on timeUITests */,
 				63EE544C2C284F530040DC5A /* Products */,
+				63A692592C2959ED00FF4A0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,10 +162,12 @@
 		63EE544D2C284F530040DC5A /* Wake on time */ = {
 			isa = PBXGroup;
 			children = (
+				63A692522C2954F400FF4A0D /* Wake-on-time-Info.plist */,
 				63012DE82C28D28900CCC2FC /* Start_View */,
 				63EE544E2C284F530040DC5A /* Wake_on_timeApp.swift */,
 				63EE54502C284F530040DC5A /* ContentView.swift */,
 				63EE54522C284F550040DC5A /* Assets.xcassets */,
+				63A6925C2C295A7E00FF4A0D /* click.json */,
 				63EE54542C284F550040DC5A /* Wake_on_time.entitlements */,
 				63EE54552C284F550040DC5A /* Preview Content */,
 			);
@@ -167,6 +215,10 @@
 			dependencies = (
 			);
 			name = "Wake on time";
+			packageProductDependencies = (
+				63A6925A2C2959ED00FF4A0D /* Lottie */,
+				6344FF082C2AB197005BEE3A /* RiveRuntime */,
+			);
 			productName = "Wake on time";
 			productReference = 63EE544B2C284F530040DC5A /* Wake on time.app */;
 			productType = "com.apple.product-type.application";
@@ -239,6 +291,10 @@
 				Base,
 			);
 			mainGroup = 63EE54422C284F530040DC5A;
+			packageReferences = (
+				63A692532C2957AD00FF4A0D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				6344FF072C2AB172005BEE3A /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
 			productRefGroup = 63EE544C2C284F530040DC5A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,6 +314,11 @@
 				63EE54572C284F550040DC5A /* Preview Assets.xcassets in Resources */,
 				63EE54532C284F550040DC5A /* Assets.xcassets in Resources */,
 				63012DE72C28CE8C00CCC2FC /* blackjack.otf in Resources */,
+				6354689A2C2AB6FF008AD62B /* black_sky_with_shooting_stars-2.riv in Resources */,
+				6354689C2C2ABB55008AD62B /* traveling_salesman.riv in Resources */,
+				63A6925D2C295A7E00FF4A0D /* click.json in Resources */,
+				6344FF0F2C2AB3C6005BEE3A /* loading.json in Resources */,
+				632147D32C2A9F010083D559 /* loading2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,8 +344,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				63EE54512C284F530040DC5A /* ContentView.swift in Sources */,
-				63012DEA2C28D29E00CCC2FC /* startview.swift in Sources */,
 				63EE544F2C284F530040DC5A /* Wake_on_timeApp.swift in Sources */,
+				63A692612C29638300FF4A0D /* LottieView.swift in Sources */,
+				632147D12C2A9D790083D559 /* startview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +510,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Wake-on-time-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -488,6 +551,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Wake-on-time-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -645,6 +709,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6344FF072C2AB172005BEE3A /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.14.1;
+			};
+		};
+		63A692532C2957AD00FF4A0D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6344FF082C2AB197005BEE3A /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6344FF072C2AB172005BEE3A /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+		63A6925A2C2959ED00FF4A0D /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63A692532C2957AD00FF4A0D /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 63EE54432C284F530040DC5A /* Project object */;
 }
