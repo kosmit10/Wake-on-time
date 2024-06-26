@@ -17,6 +17,7 @@
 		63A6925B2C2959ED00FF4A0D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 63A6925A2C2959ED00FF4A0D /* Lottie */; };
 		63A6925D2C295A7E00FF4A0D /* click.json in Resources */ = {isa = PBXBuildFile; fileRef = 63A6925C2C295A7E00FF4A0D /* click.json */; };
 		63A692612C29638300FF4A0D /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A692602C29638300FF4A0D /* LottieView.swift */; };
+		63E826EB2C2BFBD600EB26AA /* shape.riv in Resources */ = {isa = PBXBuildFile; fileRef = 63E826EA2C2BFBD600EB26AA /* shape.riv */; };
 		63EE544F2C284F530040DC5A /* Wake_on_timeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EE544E2C284F530040DC5A /* Wake_on_timeApp.swift */; };
 		63EE54512C284F530040DC5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EE54502C284F530040DC5A /* ContentView.swift */; };
 		63EE54532C284F550040DC5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63EE54522C284F550040DC5A /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 		63A692522C2954F400FF4A0D /* Wake-on-time-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Wake-on-time-Info.plist"; sourceTree = SOURCE_ROOT; };
 		63A6925C2C295A7E00FF4A0D /* click.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = click.json; sourceTree = "<group>"; };
 		63A692602C29638300FF4A0D /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		63E826EA2C2BFBD600EB26AA /* shape.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = shape.riv; sourceTree = "<group>"; };
 		63EE544B2C284F530040DC5A /* Wake on time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wake on time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EE544E2C284F530040DC5A /* Wake_on_timeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wake_on_timeApp.swift; sourceTree = "<group>"; };
 		63EE54502C284F530040DC5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			children = (
 				635468992C2AB6FF008AD62B /* black_sky_with_shooting_stars-2.riv */,
 				6354689B2C2ABB55008AD62B /* traveling_salesman.riv */,
+				63E826EA2C2BFBD600EB26AA /* shape.riv */,
 			);
 			path = Rive;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				63EE54692C284F560040DC5A /* Wake on timeUITests */,
 				63EE544C2C284F530040DC5A /* Products */,
 				63A692592C2959ED00FF4A0D /* Frameworks */,
+				63012DE82C28D28900CCC2FC /* Start_View */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,7 +167,6 @@
 			isa = PBXGroup;
 			children = (
 				63A692522C2954F400FF4A0D /* Wake-on-time-Info.plist */,
-				63012DE82C28D28900CCC2FC /* Start_View */,
 				63EE544E2C284F530040DC5A /* Wake_on_timeApp.swift */,
 				63EE54502C284F530040DC5A /* ContentView.swift */,
 				63EE54522C284F550040DC5A /* Assets.xcassets */,
@@ -311,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E826EB2C2BFBD600EB26AA /* shape.riv in Resources */,
 				63EE54572C284F550040DC5A /* Preview Assets.xcassets in Resources */,
 				63EE54532C284F550040DC5A /* Assets.xcassets in Resources */,
 				63012DE72C28CE8C00CCC2FC /* blackjack.otf in Resources */,
